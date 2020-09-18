@@ -4,7 +4,8 @@ public class Ahorcado {
  Integer a;
  Integer b;
  Integer opcion;
- Integer resultado;
+ Integer resultado = 0;//comentario para modificar el repositorio
+
  do{
  System.out.println("Ingrese su operación /n 1 para sumar /n 2 para restar /n 3 para multiplicar /n 4 para dividir");
  opcion = teclado.next();
